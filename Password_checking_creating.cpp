@@ -16,7 +16,7 @@ public:
             }
             else {
                 return false;
-            }  
+            }
         }
     }
     bool IsCapital() {
@@ -31,8 +31,7 @@ public:
         }
     }
 };
-    int main()
-    {
+int main(){
         std::string password, password1;
         int number_of_tries = 1;
         for (number_of_tries; number_of_tries <= 3; number_of_tries++) {
@@ -74,5 +73,6 @@ public:
             else {
                 std::cout << "Password must match each other" << std::endl;
             }
+        }
 
     };
